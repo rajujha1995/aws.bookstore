@@ -795,3 +795,27 @@ a:focus {
   color: inherit;
 }
 /*# sourceMappingURL=style.css.map */
+
+.navbar-nav .btn-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* margin-top: 10px; */
+}
+
+.navbar-nav button {
+  display: inline-block;
+  padding: 12px 45px;
+  background-color: #44b89d;
+  color: #ffffff;
+  border-radius: 45px;
+  border: 1px solid #44b89d;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  width: 100%;
+}
+
+.navbar-nav button:hover {
+  background-color: transparent;
+  color: #44b89d;
+}
